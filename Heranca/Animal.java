@@ -4,7 +4,6 @@ public class Animal {
 	
 	private String nome;
 	private int idade;
-	private boolean som;
 	private boolean correr;
 	
 	
@@ -32,13 +31,10 @@ public class Animal {
 	public void setCorrer(boolean correr) {
 		this.correr = correr;
 	}
-	public void fazBarulho() 
+	public void emitirSom() 
 	{
-		this.som = true;
+		System.out.println("Latido ...");
 	}
-	public void nFaz()
-	{
-		this.som = false;
-	}
+
 
 }
